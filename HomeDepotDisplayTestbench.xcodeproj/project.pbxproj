@@ -22,6 +22,18 @@
 		3E35FDF319316BFE0084C970 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E35FDD719316BFE0084C970 /* CoreData.framework */; };
 		3E35FDFB19316BFE0084C970 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E35FDF919316BFE0084C970 /* InfoPlist.strings */; };
 		3E35FDFD19316BFE0084C970 /* HomeDepotDisplayTestbenchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FDFC19316BFE0084C970 /* HomeDepotDisplayTestbenchTests.m */; };
+		3E35FE0719316C2F0084C970 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E35FE0619316C2F0084C970 /* MainStoryboard.storyboard */; };
+		3E35FE0819316C2F0084C970 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E35FE0619316C2F0084C970 /* MainStoryboard.storyboard */; };
+		3E35FE0A19316C560084C970 /* MainStoryboardIPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E35FE0919316C560084C970 /* MainStoryboardIPhone.storyboard */; };
+		3E35FE0B19316C560084C970 /* MainStoryboardIPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E35FE0919316C560084C970 /* MainStoryboardIPhone.storyboard */; };
+		3E35FE0E19316CE20084C970 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE0D19316CE20084C970 /* ViewController.m */; };
+		3E35FE0F19316CE20084C970 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE0D19316CE20084C970 /* ViewController.m */; };
+		3E35FE1219316D080084C970 /* PDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1119316D080084C970 /* PDFDocument.m */; };
+		3E35FE1319316D080084C970 /* PDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1119316D080084C970 /* PDFDocument.m */; };
+		3E35FE1619316D210084C970 /* PDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1519316D200084C970 /* PDFPage.m */; };
+		3E35FE1719316D210084C970 /* PDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1519316D200084C970 /* PDFPage.m */; };
+		9584C82919319BEF00166C2C /* libfpdfemb_ios_arm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9584C82719319BEF00166C2C /* libfpdfemb_ios_arm.a */; };
+		9584C82A19319BEF00166C2C /* libfpdfemb_ios_emu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9584C82819319BEF00166C2C /* libfpdfemb_ios_emu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,16 @@
 		3E35FDF819316BFE0084C970 /* HomeDepotDisplayTestbenchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeDepotDisplayTestbenchTests-Info.plist"; sourceTree = "<group>"; };
 		3E35FDFA19316BFE0084C970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E35FDFC19316BFE0084C970 /* HomeDepotDisplayTestbenchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeDepotDisplayTestbenchTests.m; sourceTree = "<group>"; };
+		3E35FE0619316C2F0084C970 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3E35FE0919316C560084C970 /* MainStoryboardIPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboardIPhone.storyboard; sourceTree = "<group>"; };
+		3E35FE0C19316CE20084C970 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E35FE0D19316CE20084C970 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E35FE1019316D080084C970 /* PDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFDocument.h; sourceTree = "<group>"; };
+		3E35FE1119316D080084C970 /* PDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFDocument.m; sourceTree = "<group>"; };
+		3E35FE1419316D200084C970 /* PDFPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFPage.h; sourceTree = "<group>"; };
+		3E35FE1519316D200084C970 /* PDFPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFPage.m; sourceTree = "<group>"; };
+		9584C82719319BEF00166C2C /* libfpdfemb_ios_arm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfpdfemb_ios_arm.a; path = library/libfpdfemb_ios_arm.a; sourceTree = SOURCE_ROOT; };
+		9584C82819319BEF00166C2C /* libfpdfemb_ios_emu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfpdfemb_ios_emu.a; path = library/libfpdfemb_ios_emu.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9584C82A19319BEF00166C2C /* libfpdfemb_ios_emu.a in Frameworks */,
 				3E35FDD419316BFE0084C970 /* CoreGraphics.framework in Frameworks */,
+				9584C82919319BEF00166C2C /* libfpdfemb_ios_arm.a in Frameworks */,
 				3E35FDD819316BFE0084C970 /* CoreData.framework in Frameworks */,
 				3E35FDD619316BFE0084C970 /* UIKit.framework in Frameworks */,
 				3E35FDD219316BFE0084C970 /* Foundation.framework in Frameworks */,
@@ -115,11 +139,21 @@
 		3E35FDD919316BFE0084C970 /* HomeDepotDisplayTestbench */ = {
 			isa = PBXGroup;
 			children = (
+				9584C82719319BEF00166C2C /* libfpdfemb_ios_arm.a */,
+				9584C82819319BEF00166C2C /* libfpdfemb_ios_emu.a */,
 				3E35FDE219316BFE0084C970 /* AppDelegate.h */,
 				3E35FDE319316BFE0084C970 /* AppDelegate.m */,
 				3E35FDE819316BFE0084C970 /* Images.xcassets */,
 				3E35FDE519316BFE0084C970 /* HomeDepotDisplayTestbench.xcdatamodeld */,
 				3E35FDDA19316BFE0084C970 /* Supporting Files */,
+				3E35FE0619316C2F0084C970 /* MainStoryboard.storyboard */,
+				3E35FE0919316C560084C970 /* MainStoryboardIPhone.storyboard */,
+				3E35FE0C19316CE20084C970 /* ViewController.h */,
+				3E35FE0D19316CE20084C970 /* ViewController.m */,
+				3E35FE1019316D080084C970 /* PDFDocument.h */,
+				3E35FE1119316D080084C970 /* PDFDocument.m */,
+				3E35FE1419316D200084C970 /* PDFPage.h */,
+				3E35FE1519316D200084C970 /* PDFPage.m */,
 			);
 			path = HomeDepotDisplayTestbench;
 			sourceTree = "<group>";
@@ -228,8 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E35FE0719316C2F0084C970 /* MainStoryboard.storyboard in Resources */,
 				3E35FDDE19316BFE0084C970 /* InfoPlist.strings in Resources */,
 				3E35FDE919316BFE0084C970 /* Images.xcassets in Resources */,
+				3E35FE0A19316C560084C970 /* MainStoryboardIPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +273,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E35FE0B19316C560084C970 /* MainStoryboardIPhone.storyboard in Resources */,
+				3E35FE0819316C2F0084C970 /* MainStoryboard.storyboard in Resources */,
 				3E35FDFB19316BFE0084C970 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E35FDE419316BFE0084C970 /* AppDelegate.m in Sources */,
+				3E35FE1619316D210084C970 /* PDFPage.m in Sources */,
 				3E35FDE019316BFE0084C970 /* main.m in Sources */,
+				3E35FE0E19316CE20084C970 /* ViewController.m in Sources */,
+				3E35FE1219316D080084C970 /* PDFDocument.m in Sources */,
 				3E35FDE719316BFE0084C970 /* HomeDepotDisplayTestbench.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E35FE0F19316CE20084C970 /* ViewController.m in Sources */,
+				3E35FE1319316D080084C970 /* PDFDocument.m in Sources */,
 				3E35FDFD19316BFE0084C970 /* HomeDepotDisplayTestbenchTests.m in Sources */,
+				3E35FE1719316D210084C970 /* PDFPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +416,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HomeDepotDisplayTestbench/HomeDepotDisplayTestbench-Prefix.pch";
 				INFOPLIST_FILE = "HomeDepotDisplayTestbench/HomeDepotDisplayTestbench-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mountain7cat/Documents/homeDepot/HomeDepotDisplayTestbench/library,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -385,6 +434,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HomeDepotDisplayTestbench/HomeDepotDisplayTestbench-Prefix.pch";
 				INFOPLIST_FILE = "HomeDepotDisplayTestbench/HomeDepotDisplayTestbench-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mountain7cat/Documents/homeDepot/HomeDepotDisplayTestbench/library,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -449,6 +503,7 @@
 				3E35FE0219316BFE0084C970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E35FE0319316BFE0084C970 /* Build configuration list for PBXNativeTarget "HomeDepotDisplayTestbenchTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +512,7 @@
 				3E35FE0519316BFE0084C970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
