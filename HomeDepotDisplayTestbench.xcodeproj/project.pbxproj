@@ -32,6 +32,7 @@
 		3E35FE1319316D080084C970 /* PDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1119316D080084C970 /* PDFDocument.m */; };
 		3E35FE1619316D210084C970 /* PDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1519316D200084C970 /* PDFPage.m */; };
 		3E35FE1719316D210084C970 /* PDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1519316D200084C970 /* PDFPage.m */; };
+		3E35FE191932CEF90084C970 /* ButtonGo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E35FE181932CEF90084C970 /* ButtonGo.png */; };
 		9584C82919319BEF00166C2C /* libfpdfemb_ios_arm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9584C82719319BEF00166C2C /* libfpdfemb_ios_arm.a */; };
 		9584C82A19319BEF00166C2C /* libfpdfemb_ios_emu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9584C82819319BEF00166C2C /* libfpdfemb_ios_emu.a */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,7 @@
 		3E35FE1119316D080084C970 /* PDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFDocument.m; sourceTree = "<group>"; };
 		3E35FE1419316D200084C970 /* PDFPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFPage.h; sourceTree = "<group>"; };
 		3E35FE1519316D200084C970 /* PDFPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFPage.m; sourceTree = "<group>"; };
+		3E35FE181932CEF90084C970 /* ButtonGo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonGo.png; sourceTree = "<group>"; };
 		9584C82719319BEF00166C2C /* libfpdfemb_ios_arm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfpdfemb_ios_arm.a; path = library/libfpdfemb_ios_arm.a; sourceTree = SOURCE_ROOT; };
 		9584C82819319BEF00166C2C /* libfpdfemb_ios_emu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfpdfemb_ios_emu.a; path = library/libfpdfemb_ios_emu.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -161,6 +163,7 @@
 		3E35FDDA19316BFE0084C970 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3E35FE181932CEF90084C970 /* ButtonGo.png */,
 				3E35FDDB19316BFE0084C970 /* HomeDepotDisplayTestbench-Info.plist */,
 				3E35FDDC19316BFE0084C970 /* InfoPlist.strings */,
 				3E35FDDF19316BFE0084C970 /* main.m */,
@@ -266,6 +269,7 @@
 				3E35FDDE19316BFE0084C970 /* InfoPlist.strings in Resources */,
 				3E35FDE919316BFE0084C970 /* Images.xcassets in Resources */,
 				3E35FE0A19316C560084C970 /* MainStoryboardIPhone.storyboard in Resources */,
+				3E35FE191932CEF90084C970 /* ButtonGo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
