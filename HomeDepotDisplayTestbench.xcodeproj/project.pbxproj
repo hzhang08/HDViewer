@@ -75,6 +75,18 @@
 		3E35FE1419316D200084C970 /* PDFPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFPage.h; sourceTree = "<group>"; };
 		3E35FE1519316D200084C970 /* PDFPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFPage.m; sourceTree = "<group>"; };
 		3E35FE181932CEF90084C970 /* ButtonGo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonGo.png; sourceTree = "<group>"; };
+		3E35FE1B1932D0AF0084C970 /* fpdf_annot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fpdf_annot.h; path = include/fpdf_annot.h; sourceTree = SOURCE_ROOT; };
+		3E35FE1C1932D0AF0084C970 /* fpdf_base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fpdf_base.h; path = include/fpdf_base.h; sourceTree = SOURCE_ROOT; };
+		3E35FE1D1932D0AF0084C970 /* fpdf_document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fpdf_document.h; path = include/fpdf_document.h; sourceTree = SOURCE_ROOT; };
+		3E35FE1E1932D0AF0084C970 /* fpdf_formfield.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fpdf_formfield.h; path = include/fpdf_formfield.h; sourceTree = SOURCE_ROOT; };
+		3E35FE1F1932D0AF0084C970 /* fpdf_fwlevent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fpdf_fwlevent.h; path = include/fpdf_fwlevent.h; sourceTree = SOURCE_ROOT; };
+		3E35FE201932D0AF0084C970 /* fpdf_reflow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fpdf_reflow.h; path = include/fpdf_reflow.h; sourceTree = SOURCE_ROOT; };
+		3E35FE211932D0AF0084C970 /* fpdf_security.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fpdf_security.h; path = include/fpdf_security.h; sourceTree = SOURCE_ROOT; };
+		3E35FE221932D0AF0084C970 /* fpdf_text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fpdf_text.h; path = include/fpdf_text.h; sourceTree = SOURCE_ROOT; };
+		3E35FE231932D0AF0084C970 /* fpdf_view.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fpdf_view.h; path = include/fpdf_view.h; sourceTree = SOURCE_ROOT; };
+		3E35FE241932D0AF0084C970 /* fpsi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fpsi.h; path = include/fpsi.h; sourceTree = SOURCE_ROOT; };
+		3E35FE251932D0AF0084C970 /* fs_base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_base.h; path = include/fs_base.h; sourceTree = SOURCE_ROOT; };
+		3E35FE261932D0AF0084C970 /* fs_exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_exception.h; path = include/fs_exception.h; sourceTree = SOURCE_ROOT; };
 		9584C82719319BEF00166C2C /* libfpdfemb_ios_arm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfpdfemb_ios_arm.a; path = library/libfpdfemb_ios_arm.a; sourceTree = SOURCE_ROOT; };
 		9584C82819319BEF00166C2C /* libfpdfemb_ios_emu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfpdfemb_ios_emu.a; path = library/libfpdfemb_ios_emu.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -141,6 +153,7 @@
 		3E35FDD919316BFE0084C970 /* HomeDepotDisplayTestbench */ = {
 			isa = PBXGroup;
 			children = (
+				3E35FE1A1932D09E0084C970 /* include */,
 				9584C82719319BEF00166C2C /* libfpdfemb_ios_arm.a */,
 				9584C82819319BEF00166C2C /* libfpdfemb_ios_emu.a */,
 				3E35FDE219316BFE0084C970 /* AppDelegate.h */,
@@ -188,6 +201,25 @@
 				3E35FDF919316BFE0084C970 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E35FE1A1932D09E0084C970 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3E35FE1B1932D0AF0084C970 /* fpdf_annot.h */,
+				3E35FE1C1932D0AF0084C970 /* fpdf_base.h */,
+				3E35FE1D1932D0AF0084C970 /* fpdf_document.h */,
+				3E35FE1E1932D0AF0084C970 /* fpdf_formfield.h */,
+				3E35FE1F1932D0AF0084C970 /* fpdf_fwlevent.h */,
+				3E35FE201932D0AF0084C970 /* fpdf_reflow.h */,
+				3E35FE211932D0AF0084C970 /* fpdf_security.h */,
+				3E35FE221932D0AF0084C970 /* fpdf_text.h */,
+				3E35FE231932D0AF0084C970 /* fpdf_view.h */,
+				3E35FE241932D0AF0084C970 /* fpsi.h */,
+				3E35FE251932D0AF0084C970 /* fs_base.h */,
+				3E35FE261932D0AF0084C970 /* fs_exception.h */,
+			);
+			name = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

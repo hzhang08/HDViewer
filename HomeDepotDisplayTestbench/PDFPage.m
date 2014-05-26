@@ -22,7 +22,7 @@
 
 -(UIImage*)generateScreenImage
 {
-    
+    return [UIImage imageNamed:@"ButtonGo.png"];
 }
 
 -(void)formTouchBegin:(UITouch*)touch
