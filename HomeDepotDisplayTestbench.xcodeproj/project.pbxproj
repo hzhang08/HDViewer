@@ -28,11 +28,9 @@
 		3E35FE0B19316C560084C970 /* MainStoryboardIPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E35FE0919316C560084C970 /* MainStoryboardIPhone.storyboard */; };
 		3E35FE0E19316CE20084C970 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE0D19316CE20084C970 /* ViewController.m */; };
 		3E35FE0F19316CE20084C970 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE0D19316CE20084C970 /* ViewController.m */; };
-		3E35FE1219316D080084C970 /* PDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1119316D080084C970 /* PDFDocument.m */; };
-		3E35FE1319316D080084C970 /* PDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1119316D080084C970 /* PDFDocument.m */; };
-		3E35FE1619316D210084C970 /* PDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1519316D200084C970 /* PDFPage.m */; };
-		3E35FE1719316D210084C970 /* PDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1519316D200084C970 /* PDFPage.m */; };
 		3E35FE191932CEF90084C970 /* ButtonGo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E35FE181932CEF90084C970 /* ButtonGo.png */; };
+		3E593D0219367ADF00357155 /* PDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1119316D080084C970 /* PDFDocument.m */; };
+		3E593D0319367ADF00357155 /* PDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35FE1519316D200084C970 /* PDFPage.m */; };
 		9584C82919319BEF00166C2C /* libfpdfemb_ios_arm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9584C82719319BEF00166C2C /* libfpdfemb_ios_arm.a */; };
 		9584C82A19319BEF00166C2C /* libfpdfemb_ios_emu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9584C82819319BEF00166C2C /* libfpdfemb_ios_emu.a */; };
 /* End PBXBuildFile section */
@@ -322,11 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E593D0219367ADF00357155 /* PDFDocument.m in Sources */,
+				3E593D0319367ADF00357155 /* PDFPage.m in Sources */,
 				3E35FDE419316BFE0084C970 /* AppDelegate.m in Sources */,
-				3E35FE1619316D210084C970 /* PDFPage.m in Sources */,
 				3E35FDE019316BFE0084C970 /* main.m in Sources */,
 				3E35FE0E19316CE20084C970 /* ViewController.m in Sources */,
-				3E35FE1219316D080084C970 /* PDFDocument.m in Sources */,
 				3E35FDE719316BFE0084C970 /* HomeDepotDisplayTestbench.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E35FE0F19316CE20084C970 /* ViewController.m in Sources */,
-				3E35FE1319316D080084C970 /* PDFDocument.m in Sources */,
 				3E35FDFD19316BFE0084C970 /* HomeDepotDisplayTestbenchTests.m in Sources */,
-				3E35FE1719316D210084C970 /* PDFPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +451,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/mountain7cat/Documents/homeDepot/HomeDepotDisplayTestbench/library,
+					library,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -473,7 +469,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/mountain7cat/Documents/homeDepot/HomeDepotDisplayTestbench/library,
+					library,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
